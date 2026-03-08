@@ -1,0 +1,11 @@
+python server_http.py
+python processor_iot.py
+terminal 3-5
+python sensor_http.py 1
+python sensor_http.py 2
+python sensor_http.py 3
+terminal 6-8
+python sensor.py 1
+python sensor.py 2
+python sensor.py 3
+python sensor_dashboard.py -> http://localhost:8000/metrics: metric, http://localhost:8000: UI
